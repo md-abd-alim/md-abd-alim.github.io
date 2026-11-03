@@ -176,3 +176,6 @@ footer .top{grid-template-columns:repeat(3,1fr);gap:40px}
 /* v6: case study pages */
 .two .card ul{margin:0;padding-left:20px}.two .card li{margin-bottom:8px}
 .linklist.plain{columns:1}
+/* v9: PDF viewer on study pages */
+.pdfv{width:100%;height:780px;border:1px solid var(--line);border-radius:12px;background:#fff}
+@media(max-width:720px){.pdfv{display:none}}
